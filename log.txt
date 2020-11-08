@@ -1,0 +1,149 @@
+Test 1
+Window size: 8KB
+Delay: 150ms
+iperf -s -P 1 -w 8KB
+Start Time: NS3 Time:          0s (           +599999999.0ns) , REAL Time: 1604873531
+      Time: NS3 Time:          0s (           +599999999.0ns) , REAL Time: 1604873531 --> Starting: /home/vagrant/dce/build/bin/iperf
+      Time: NS3 Time:         13s (         +13071215997.0ns) , REAL Time: 1604873532 --> Exit (0)
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 8.00 KByte
+------------------------------------------------------------
+[  4] local 10.1.1.2 port 5001 connected with 10.1.1.1 port 49153
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-11.2 sec   768 KBytes   562 Kbits/sec
+
+Test 2
+Window size: 16KB
+Delay: 350ms
+iperf -s -P 1 -w 16KB
+Start Time: NS3 Time:          0s (           +599999999.0ns) , REAL Time: 1604873533
+      Time: NS3 Time:          0s (           +599999999.0ns) , REAL Time: 1604873533 --> Starting: /home/vagrant/dce/build/bin/iperf
+      Time: NS3 Time:         18s (         +18711215997.0ns) , REAL Time: 1604873533 --> Exit (0)
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 16.0 KByte
+------------------------------------------------------------
+[  4] local 10.1.1.2 port 5001 connected with 10.1.1.1 port 49153
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-15.9 sec   256 KBytes   132 Kbits/sec
+
+Test 3
+Window size: 24KB
+Delay: 300ms
+iperf -s -P 1 -w 24KB
+Start Time: NS3 Time:          0s (           +599999999.0ns) , REAL Time: 1604873534
+      Time: NS3 Time:          0s (           +599999999.0ns) , REAL Time: 1604873534 --> Starting: /home/vagrant/dce/build/bin/iperf
+      Time: NS3 Time:         17s (         +17741215997.0ns) , REAL Time: 1604873535 --> Exit (0)
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 24.0 KByte
+------------------------------------------------------------
+[  4] local 10.1.1.2 port 5001 connected with 10.1.1.1 port 49153
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-14.8 sec   256 KBytes   141 Kbits/sec
+
+Test 4
+Window size: 32KB
+Delay: 500ms
+iperf -s -P 1 -w 32KB
+Start Time: NS3 Time:          0s (           +599999999.0ns) , REAL Time: 1604873535
+      Time: NS3 Time:          0s (           +599999999.0ns) , REAL Time: 1604873535 --> Starting: /home/vagrant/dce/build/bin/iperf
+      Time: NS3 Time:         15s (         +15251215997.0ns) , REAL Time: 1604873536 --> Exit (0)
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 32.0 KByte
+------------------------------------------------------------
+[  4] local 10.1.1.2 port 5001 connected with 10.1.1.1 port 49153
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-12.6 sec   384 KBytes   249 Kbits/sec
+
+Test 5
+Window size: 40KB
+Delay: 50ms
+iperf -s -P 1 -w 40KB
+Start Time: NS3 Time:          0s (           +599999999.0ns) , REAL Time: 1604873537
+      Time: NS3 Time:          0s (           +599999999.0ns) , REAL Time: 1604873537 --> Starting: /home/vagrant/dce/build/bin/iperf
+      Time: NS3 Time:         14s (         +14061215997.0ns) , REAL Time: 1604873537 --> Exit (0)
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 40.0 KByte
+------------------------------------------------------------
+[  4] local 10.1.1.2 port 5001 connected with 10.1.1.1 port 49153
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-11.4 sec   384 KBytes   275 Kbits/sec
+
+Test 6
+Window size: 48KB
+Delay: 400ms
+iperf -s -P 1 -w 48KB
+Start Time: NS3 Time:          0s (           +599999999.0ns) , REAL Time: 1604873538
+      Time: NS3 Time:          0s (           +599999999.0ns) , REAL Time: 1604873538 --> Starting: /home/vagrant/dce/build/bin/iperf
+      Time: NS3 Time:         14s (         +14851215997.0ns) , REAL Time: 1604873539 --> Exit (0)
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 48.0 KByte
+------------------------------------------------------------
+[  4] local 10.1.1.2 port 5001 connected with 10.1.1.1 port 49153
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-12.2 sec   512 KBytes   343 Kbits/sec
+
+Test 7
+Window size: 56KB
+Delay: 450ms
+iperf -s -P 1 -w 56KB
+Start Time: NS3 Time:          0s (           +599999999.0ns) , REAL Time: 1604873539
+      Time: NS3 Time:          0s (           +599999999.0ns) , REAL Time: 1604873539 --> Starting: /home/vagrant/dce/build/bin/iperf
+      Time: NS3 Time:         14s (         +14511215997.0ns) , REAL Time: 1604873540 --> Exit (0)
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 56.0 KByte
+------------------------------------------------------------
+[  4] local 10.1.1.2 port 5001 connected with 10.1.1.1 port 49153
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-11.7 sec   384 KBytes   268 Kbits/sec
+
+Test 8
+Window size: 64KB
+Delay: 250ms
+iperf -s -P 1 -w 64KB
+Start Time: NS3 Time:          0s (           +599999999.0ns) , REAL Time: 1604873541
+      Time: NS3 Time:          0s (           +599999999.0ns) , REAL Time: 1604873541 --> Starting: /home/vagrant/dce/build/bin/iperf
+      Time: NS3 Time:         13s (         +13071215997.0ns) , REAL Time: 1604873544 --> Exit (0)
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 64.0 KByte
+------------------------------------------------------------
+[  4] local 10.1.1.2 port 5001 connected with 10.1.1.1 port 49153
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-11.1 sec  2.50 MBytes  1.90 Mbits/sec
+
+Test 9
+Window size: 72KB
+Delay: 300ms
+iperf -s -P 1 -w 72KB
+Start Time: NS3 Time:          0s (           +599999999.0ns) , REAL Time: 1604873544
+      Time: NS3 Time:          0s (           +599999999.0ns) , REAL Time: 1604873545 --> Starting: /home/vagrant/dce/build/bin/iperf
+      Time: NS3 Time:         14s (         +14281215997.0ns) , REAL Time: 1604873545 --> Exit (0)
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 72.0 KByte
+------------------------------------------------------------
+[  4] local 10.1.1.2 port 5001 connected with 10.1.1.1 port 49153
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-11.7 sec   640 KBytes   449 Kbits/sec
+
+Test 10
+Window size: 80KB
+Delay: 150ms
+iperf -s -P 1 -w 80KB
+Start Time: NS3 Time:          0s (           +599999999.0ns) , REAL Time: 1604873546
+      Time: NS3 Time:          0s (           +599999999.0ns) , REAL Time: 1604873546 --> Starting: /home/vagrant/dce/build/bin/iperf
+      Time: NS3 Time:         13s (         +13411215997.0ns) , REAL Time: 1604873548 --> Exit (0)
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 80.0 KByte
+------------------------------------------------------------
+[  4] local 10.1.1.2 port 5001 connected with 10.1.1.1 port 49153
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-11.2 sec  1.88 MBytes  1.40 Mbits/sec
