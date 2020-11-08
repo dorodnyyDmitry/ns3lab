@@ -14,5 +14,4 @@ for i in range(2, 21, 2):
   log_file.write(a)
 
 log_file.close()
-
 os.chdir("../../../")
